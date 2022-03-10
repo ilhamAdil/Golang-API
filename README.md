@@ -26,15 +26,10 @@ An important goal of clean architecture is to provide developers with a way to o
 Attributes | data type
 --- | ---
 ID | int: auto increment
---- | ---
 Title | string
---- | ---
 Description | string
---- | ---
 Price | int
---- | ---
 Rating | int
---- | ---
 Discount | int
 
 # API Testing
