@@ -72,6 +72,16 @@ localhost:3000 is where the API will be consumed with React and Axios.
 ![APIpost](https://user-images.githubusercontent.com/66354919/157632010-af3356a2-56d7-4b52-9d2c-893f5f7e46c4.gif)
 
 ## Updating Book
+![APIupdate](https://user-images.githubusercontent.com/66354919/157633922-b035ccb9-5399-4313-bd2a-08c6901de7ef.gif)
+
+### Deleting Book
+![APIdelete](https://user-images.githubusercontent.com/66354919/157634109-eb78dd6b-8d45-477a-8791-240444de7dc5.gif)
+
+# Resources
+https://github.com/gin-gonic/gin
+https://github.com/go-gorm/gorm
+https://github.com/gin-contrib/cors
+
 
 
 
