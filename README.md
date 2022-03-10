@@ -51,11 +51,11 @@ This API Test is using Postman
 ![resDELETE](https://user-images.githubusercontent.com/66354919/157625010-3eeb262e-c588-4038-95bd-f433671580f0.gif)
 
 #API Consume
-Created a frontend API Consumer using React.js
-### Library used for API consume
+Created a frontend API Consumer using React.js on diffferent repository (Available on my github/ilhamAdil)
+## Library used for API consume
 - Axios
 
-###trouble
+## Trouble
 Cross-Origin Resource Sharing (CORS) errors occur when a server doesn't return the HTTP headers required by the CORS standard. 
 
 To resolve a CORS error from an API Gateway REST API or HTTP API, reconfigure the API to meet the CORS standard. So, in Golang file main.go, added:
@@ -66,6 +66,13 @@ func handleFoo(rw http.ResponseWriter, r *http.Request) {
 }
 ```
 localhost:3000 is where the API will be consumed with React and Axios.
+
+## Frontend DEMO
+### Posting New Book
+![APIpost](https://user-images.githubusercontent.com/66354919/157632010-af3356a2-56d7-4b52-9d2c-893f5f7e46c4.gif)
+
+## Updating Book
+
 
 
 
