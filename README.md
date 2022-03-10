@@ -36,16 +36,15 @@ Discount | int
 # API Testing
 Endpoints:
 ```
-	// versioning (api: v1/hello, v1/books, ..)
-	v1 := router.Group("/v1")
+v1 := router.Group("/v1")
 
-	v1.GET("/books", bookHandler.GetBooksHandler)
-	v1.GET("/books/:id", bookHandler.GetBookHandler)
-	v1.POST("/books", bookHandler.PostBookHandler)
-	v1.PUT("/books/:id", bookHandler.UpdateBookHandler)
-	v1.DELETE("/books/:id", bookHandler.DeleteBookHandler)
+v1.GET("/books", bookHandler.GetBooksHandler)
+v1.GET("/books/:id", bookHandler.GetBookHandler)
+v1.POST("/books", bookHandler.PostBookHandler)
+v1.PUT("/books/:id", bookHandler.UpdateBookHandler)
+v1.DELETE("/books/:id", bookHandler.DeleteBookHandler)
 
-	router.Run() //default run on port 8080
+router.Run() //default run on port 8080
 ```
 This API Test is using Postman
 ### GET BOOK
