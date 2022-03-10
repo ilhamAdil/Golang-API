@@ -23,7 +23,13 @@ An important goal of clean architecture is to provide developers with a way to o
 
 ### API Testing
 ## GET BOOK
-https://user-images.githubusercontent.com/66354919/157621565-349a57dd-e81b-4750-a9df-92a5052698d4.mp4
+https://user-images.githubusercontent.com/66354919/157621796-c54bc9ea-8820-45c2-8f55-933cd8b6befc.mp4
+
+## GET BOOK ID
+https://user-images.githubusercontent.com/66354919/157621825-859b0e9b-5844-4d2c-aff8-393e9115a9a8.mp4
+
+
+
 
 
 
