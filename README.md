@@ -65,7 +65,7 @@ func handleFoo(rw http.ResponseWriter, r *http.Request) {
 	rw.Header().Set("Access-Control-Allow-Headers", "authentication, content-type")
 }
 ```
-localhost:3000 is where the API will be consumed with React and Axios.
+localhost:3000 is where the API will be consumed by React.js frontend and Axios.
 
 ## Frontend DEMO
 ### Posting New Book
