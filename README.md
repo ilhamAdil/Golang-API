@@ -22,9 +22,14 @@ An important goal of clean architecture is to provide developers with a way to o
 - Delivery</br>Created handler.go
 
 # Entity 
-Attempt | data
---- | --- 
-Seconds | 301 
+### Book Table 
+Attributes | data type
+ID | int: auto increment
+Title | string
+Description | string
+Price | int
+Rating | int
+Discount | int
 
 # API Testing
 This API Test is using Postman
