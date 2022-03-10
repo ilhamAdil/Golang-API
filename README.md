@@ -2,6 +2,7 @@
 ## Library Used
 - Gin
 - GORM
+- CORS
 
 ## Tools Used
 - MySQL
@@ -48,6 +49,27 @@ This API Test is using Postman
 
 ### DELETE BOOK
 ![resDELETE](https://user-images.githubusercontent.com/66354919/157625010-3eeb262e-c588-4038-95bd-f433671580f0.gif)
+
+#API Consume
+Created a frontend API Consumer using React.js
+### Library used for API consume
+- Axios
+
+###trouble
+Cross-Origin Resource Sharing (CORS) errors occur when a server doesn't return the HTTP headers required by the CORS standard. 
+
+To resolve a CORS error from an API Gateway REST API or HTTP API, reconfigure the API to meet the CORS standard. So, in Golang file main.go, added:
+```
+func handleFoo(rw http.ResponseWriter, r *http.Request) {
+	rw.Header().Set("Access-Control-Allow-Origin", "http://localhost:3000")
+	rw.Header().Set("Access-Control-Allow-Headers", "authentication, content-type")
+}
+```
+localhost:3000 is where the API will be consumed with React and Axios.
+
+
+
+
 
 
 
