@@ -15,11 +15,17 @@
 
 An important goal of clean architecture is to provide developers with a way to organize code in such a way that it encapsulates the business logic but keeps it separate from the delivery mechanism.
 
-### There are 4 layers, in this project:
+### There are 4 layers in this project:
 - Models</br>Created a Book Entity (Table) using go struct
 - Repository</br>Created repository.go
 - UseCase</br>Created service.go
 - Delivery</br>Created handler.go
+
+### API Testing
+## GET BOOK
+https://user-images.githubusercontent.com/66354919/157621565-349a57dd-e81b-4750-a9df-92a5052698d4.mp4
+
+
 
 
 
