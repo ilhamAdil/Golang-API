@@ -16,13 +16,17 @@ An important goal of clean architecture is to provide developers with a way to o
 
 There are 4 layers, in this project:
 - Models 
-Created: Book Entity (Table) using golang struct
+
+Book Entity (Table) using golang struct
 - Repository
+
 Created: repository.go
 - UseCase
-  Created: service.go
+
+Created: service.go
 - Delivery
-  Created: handler.go
+
+Created: handler.go
 
 
 
