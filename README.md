@@ -22,7 +22,7 @@ An important goal of clean architecture is to provide developers with a way to o
 - Delivery</br>Created handler.go
 
 # Entity 
-Attempt 
+Attempt | data
 --- | --- 
 Seconds | 301 
 
