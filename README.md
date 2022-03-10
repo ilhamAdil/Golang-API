@@ -21,12 +21,29 @@ An important goal of clean architecture is to provide developers with a way to o
 - UseCase</br>Created service.go
 - Delivery</br>Created handler.go
 
-### API Testing
-This API Test is using Postman
-## GET BOOK
+# Entity 
+Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
 
-## GET BOOK ID
+# API Testing
+This API Test is using Postman
+### GET BOOK
+![resGET](https://user-images.githubusercontent.com/66354919/157624685-fbfea1d8-df3f-4565-80ae-06df11faa8d9.gif)
+
+### GET BOOK ID
 ![resGETID](https://user-images.githubusercontent.com/66354919/157622478-c030ce37-64c3-4bff-91c2-5386aefada22.gif)
+
+### POST BOOK
+![resPOST](https://user-images.githubusercontent.com/66354919/157624808-a036e9d4-d03a-49b9-9959-f5faa4220d2a.gif)
+
+### UPDATE BOOK
+![resUPDATE](https://user-images.githubusercontent.com/66354919/157624940-3bc7c0b6-b6c8-412d-8053-5fa1b8546665.gif)
+
+### DELETE BOOK
+![resDELETE](https://user-images.githubusercontent.com/66354919/157625010-3eeb262e-c588-4038-95bd-f433671580f0.gif)
+
+
 
 
 
