@@ -22,11 +22,12 @@ An important goal of clean architecture is to provide developers with a way to o
 - Delivery</br>Created handler.go
 
 ### API Testing
+This API Test is using Postman
 ## GET BOOK
-https://user-images.githubusercontent.com/66354919/157621796-c54bc9ea-8820-45c2-8f55-933cd8b6befc.mp4
 
 ## GET BOOK ID
-https://user-images.githubusercontent.com/66354919/157621825-859b0e9b-5844-4d2c-aff8-393e9115a9a8.mp4
+![resGETID](https://user-images.githubusercontent.com/66354919/157622478-c030ce37-64c3-4bff-91c2-5386aefada22.gif)
+
 
 
 
