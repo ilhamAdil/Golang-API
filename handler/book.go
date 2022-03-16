@@ -57,7 +57,8 @@ func (h *bookHandler) GetBooksHandler(c *gin.Context) {
 	}
 
 	c.JSON(http.StatusOK, gin.H{
-		"data": booksResponse,
+		"message": "get succeed",
+		"data":    booksResponse,
 	})
 }
 
@@ -91,7 +92,8 @@ func (h *bookHandler) PostBookHandler(c *gin.Context) {
 	}
 
 	c.JSON(http.StatusOK, gin.H{
-		"data": converToBookResponse(book),
+		"message": "post succeed",
+		"data":    converToBookResponse(book),
 	})
 }
 
